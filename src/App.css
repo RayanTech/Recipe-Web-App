@@ -1,0 +1,73 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
+
+.logo{
+  padding: 35px;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-weight: lighter;
+
+}
+
+.bar{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  boarder: none;
+  padding: 10px;
+}
+
+.search-button{
+  background-color: lightcoral;
+  boarder: none;
+  padding: 10px 20px;
+  color: wheat;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Card{
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+}
+
+.icon{
+  margin: 30px;
+  position: relative; 
+  bottom:90px;
+  opacity: 0.7;
+}
+
+.slogan{
+  font-size: 50px;
+  font-family: cursive;
+  color: azure;
+  position: relative; 
+  bottom:100px;
+  left: 25%;
+  opacity: 0.7;
+}
